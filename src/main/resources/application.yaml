@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: dev
+
+jwt:
+  secret: U29kdWl0ZUtleVBhc3N3b3JkMzRzZWNyZXQxMzNzdXBlcmlvci4uLnNlY3JldDI0c3BhbmdlcnRhc2hvd2VuMjIyYnRlZ3Jlc3BhY2U=
+  expirationTime: PT24H
